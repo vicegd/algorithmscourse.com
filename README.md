@@ -1,6 +1,6 @@
 # 🧭 Algorithms Course - Central Hub
 
-Welcome to the central repository for the **Algorithms (English Group)** course landing page. 
+Welcome to the central repository for the **Algorithms** course landing page. 
 
 This lightweight, static site acts as the main entry point for all course resources, connecting theoretical visualizers, practical implementations, and AI-assisted study tools into a single, cohesive learning ecosystem.
 
