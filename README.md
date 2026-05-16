@@ -22,6 +22,15 @@ Designed for zero maintenance and maximum speed:
 * **Matomo** (Privacy-friendly analytics)
 * **Hosting:** GitHub Pages mapped to `algorithmscourse.com`
 
-## 👨‍🏫 Author
+## 👨‍💼 Author
 
-**[Vicente García Díaz](https://www.vicentegarciadiaz.com)** *Department of Computer Science, University of Oviedo*
+[Vicente García Díaz](http://www.vicentegarciadiaz.com)  
+School of Computer Science    
+University of Oviedo
+
+---
+
+## 📜 License
+
+MIT License — Copyright (c) 2026 Vicente García Díaz  
+See [LICENSE](LICENSE) file for details
