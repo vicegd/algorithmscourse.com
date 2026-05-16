@@ -24,4 +24,4 @@ Designed for zero maintenance and maximum speed:
 
 ## 👨‍🏫 Author
 
-**Prof. Vicente García Díaz** *Department of Computer Science, University of Oviedo*
+**[Vicente García Díaz](https://www.vicentegarciadiaz.com)** *Department of Computer Science, University of Oviedo*
