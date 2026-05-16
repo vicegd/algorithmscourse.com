@@ -28,8 +28,6 @@ Designed for zero maintenance and maximum speed:
 School of Computer Science    
 University of Oviedo
 
----
-
 ## 📜 License
 
 MIT License — Copyright (c) 2026 Vicente García Díaz  
