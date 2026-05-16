@@ -3,12 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Algorithms Course - Hub</title>
+    <meta name="author" content="Vicente García Díaz">
+    <title>Algorithms Course</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Inter', sans-serif; }
     </style>
+    <!-- Matomo -->
+    <script>
+    var _paq = window._paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+        var u="//stats.garcia.at/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '8']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+    </script>
+    <!-- End Matomo Code -->
 </head>
 <body class="bg-slate-50 text-slate-800 min-h-screen flex flex-col justify-between">
 
@@ -16,19 +32,25 @@
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
             <div>
                 <h1 class="text-2xl font-bold text-slate-900 tracking-tight">Algorithms Course</h1>
-                <p class="text-sm text-slate-500 font-medium">English Group - Central Resource Hub</p>
+                <p class="text-sm text-slate-500 font-medium">Prof. Vicente García Díaz</p>
             </div>
-            <div class="bg-amber-50 border border-amber-200 rounded-lg px-4 py-2.5 max-w-md text-sm text-amber-800 flex items-center gap-2">
-                <span>📌</span>
-                <p><strong>Notice:</strong> Keep track of upcoming practical assignments and review schedules through the tools below.</p>
+            
+            <div class="flex flex-wrap items-center gap-3">
+                <a href="https://www.campusvirtual.uniovi.es/course/view.php?id=1162" target="_blank" class="bg-indigo-50 border border-indigo-200 text-indigo-700 hover:bg-indigo-100 text-xs font-semibold px-4 py-2.5 rounded-xl transition-colors flex items-center gap-2 shadow-xs">
+                    🏛️ Campus Virtual
+                </a>
+                <!--<div class="bg-amber-50 border border-amber-200 rounded-xl px-4 py-2 max-w-md text-xs text-amber-800 flex items-center gap-2">
+                    <span>📌</span>
+                    <p></p>
+                </div>-->
             </div>
         </div>
     </header>
 
     <main class="max-w-6xl mx-auto px-4 py-12 flex-grow w-full">
         <div class="text-center max-w-2xl mx-auto mb-12">
-            <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight sm:text-4xl">Course Ecosystem</h2>
-            <p class="mt-3 text-lg text-slate-500">Access theory visualization, source code repositories, and your custom AI study assistant from one single place.</p>
+            <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight sm:text-4xl">Resources</h2>
+            <p class="mt-3 text-lg text-slate-500"></p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-stretch">
@@ -76,7 +98,7 @@
             <div class="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-xs hover:shadow-md transition-all flex flex-col justify-between group">
                 <div>
                     <div class="h-48 overflow-hidden bg-slate-100">
-                        <img src="https://images.unsplash.com/photo-1677442136019-21780efad99a?w=600&auto=format&fit=crop&q=80" 
+                        <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600&auto=format&fit=crop&q=80" 
                              alt="AI Study Assistant" 
                              class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                     </div>
@@ -97,7 +119,7 @@
     </main>
 
     <footer class="bg-white border-t border-slate-200 py-6 px-4 text-center text-xs text-slate-400 font-medium">
-        <p>&copy; 2026 Algorithms Course Hub. All rights reserved for academic purposes.</p>
+        <p>&copy; 2026 Algorithms Course. All rights reserved for academic purposes.</p>
     </footer>
 
 </body>
